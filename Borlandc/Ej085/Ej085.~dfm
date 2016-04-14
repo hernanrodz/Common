@@ -1,8 +1,8 @@
 object Form1: TForm1
-  Left = 462
-  Top = 192
-  Width = 592
-  Height = 292
+  Left = 216
+  Top = 147
+  Width = 618
+  Height = 349
   Caption = 'Botones relacionados'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -14,8 +14,8 @@ object Form1: TForm1
   PixelsPerInch = 120
   TextHeight = 16
   object SpeedButton1: TSpeedButton
-    Left = 152
-    Top = 80
+    Left = 120
+    Top = 104
     Width = 73
     Height = 81
     AllowAllUp = True
@@ -407,11 +407,10 @@ object Form1: TForm1
       B1FFFFB6FFFFBDFFFFBCFFFFBDFFFFC0FFFFB9FFFF98D5D58FA5A5CDCECEFFFF
       FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
       FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
-    OnClick = SpeedButton1Click
   end
   object SpeedButton2: TSpeedButton
-    Left = 80
-    Top = 80
+    Left = 48
+    Top = 104
     Width = 73
     Height = 81
     AllowAllUp = True
@@ -803,11 +802,10 @@ object Form1: TForm1
       59819559819559819559819558819558819557819557829654829749788D4D72
       8287969EE3E3E2FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
       FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
-    OnClick = SpeedButton2Click
   end
   object SpeedButton3: TSpeedButton
-    Left = 224
-    Top = 80
+    Left = 192
+    Top = 104
     Width = 73
     Height = 81
     AllowAllUp = True
@@ -1199,11 +1197,10 @@ object Form1: TForm1
       5F81B75B7CB25778AE5777AD5879AF5C7FB56386BA688CBF668ABD597CAF5476
       AB5B7DB55C7DB55A7CB45B7DB55C7EB55E7FB56B8BBC718EBB5B77A538548285
       96A7FDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
-    OnClick = SpeedButton3Click
   end
   object SpeedButton4: TSpeedButton
-    Left = 296
-    Top = 80
+    Left = 264
+    Top = 104
     Width = 73
     Height = 81
     AllowAllUp = True
@@ -1595,11 +1592,10 @@ object Form1: TForm1
       FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFAFFFFE8F1F99BAAB8A2BAC3AEC2C5AABB
       BF92A1A57785896A787C69777B69777B6373777C8E91B8CDD18FA4A879898EEB
       F3F3FEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
-    OnClick = SpeedButton4Click
   end
   object SpeedButton5: TSpeedButton
-    Left = 368
-    Top = 80
+    Left = 336
+    Top = 104
     Width = 73
     Height = 81
     AllowAllUp = True
@@ -1991,11 +1987,10 @@ object Form1: TForm1
       C6C6C5C3C2C0BFBDBAB8B6B2B6B5B37F7C76807D75A9A8A5F5F6F6FFFFFFFFFF
       FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
       FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
-    OnClick = SpeedButton5Click
   end
   object SpeedButton6: TSpeedButton
-    Left = 440
-    Top = 80
+    Left = 408
+    Top = 104
     Width = 73
     Height = 81
     AllowAllUp = True
@@ -2387,40 +2382,13 @@ object Form1: TForm1
       2B277B2C277C2D297D2E2A7D2E2A7D2E2A7C2E2A7B2D2A7B2D2B7A2F2D7C312F
       7E3433803635823032812F317B9197B5FCFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
       FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
-    OnClick = SpeedButton6Click
-  end
-  object Label1: TLabel
-    Left = 216
-    Top = 40
-    Width = 118
-    Height = 33
-    Caption = 'Persona 3'
-    Font.Charset = ANSI_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -30
-    Font.Name = 'MS Serif'
-    Font.Style = []
-    ParentFont = False
   end
   object ToolBar1: TToolBar
     Left = 0
     Top = 0
-    Width = 584
+    Width = 610
     Height = 41
     Caption = 'ToolBar1'
     TabOrder = 0
-  end
-  object CInformation: TEdit
-    Left = 80
-    Top = 184
-    Width = 433
-    Height = 31
-    Font.Charset = ANSI_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -20
-    Font.Name = 'MS Serif'
-    Font.Style = [fsBold]
-    ParentFont = False
-    TabOrder = 1
   end
 end
