@@ -18,37 +18,38 @@ __fastcall TForm1::TForm1(TComponent* Owner)
 
 void __fastcall TForm1::SpeedButton2Click(TObject *Sender)
 {
-  CInformation->Text = "Ken";
+  CInformation->Caption = "Ken";
 }
 //---------------------------------------------------------------------------
 
 void __fastcall TForm1::SpeedButton1Click(TObject *Sender)
 {
-  CInformation->Text = "Aigis";
+  CInformation->Caption = "Aigis";
 }
 //---------------------------------------------------------------------------
 
 void __fastcall TForm1::SpeedButton3Click(TObject *Sender)
 {
-  CInformation->Text = "Yukari";
+  CInformation->Caption = "Yukari";
 }
 //---------------------------------------------------------------------------
 
 void __fastcall TForm1::SpeedButton4Click(TObject *Sender)
 {
-   CInformation->Text = "Koromaru";
+   CInformation->Caption = "Koromaru";
 }
 //---------------------------------------------------------------------------
 
 void __fastcall TForm1::SpeedButton5Click(TObject *Sender)
 {
-  CInformation->Text = "Junpei";
+  CInformation->Caption = "Junpei";
 }
 //---------------------------------------------------------------------------
 
 void __fastcall TForm1::SpeedButton6Click(TObject *Sender)
 {
-   CInformation->Text = "Mitsuru";
+   CInformation->Caption = "Mitsuru";
+   
 }
 //---------------------------------------------------------------------------
 

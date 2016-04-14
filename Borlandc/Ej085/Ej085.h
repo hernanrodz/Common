@@ -21,9 +21,8 @@ __published:	// IDE-managed Components
         TSpeedButton *SpeedButton4;
         TSpeedButton *SpeedButton5;
         TSpeedButton *SpeedButton6;
-        TToolBar *ToolBar1;
-        TEdit *CInformation;
         TLabel *Label1;
+        TLabel *CInformation;
         void __fastcall SpeedButton2Click(TObject *Sender);
         void __fastcall SpeedButton1Click(TObject *Sender);
         void __fastcall SpeedButton3Click(TObject *Sender);

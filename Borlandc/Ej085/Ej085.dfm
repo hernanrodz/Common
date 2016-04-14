@@ -1,8 +1,8 @@
 object Form1: TForm1
-  Left = 462
-  Top = 192
-  Width = 592
-  Height = 292
+  Left = 484
+  Top = 180
+  Width = 507
+  Height = 253
   Caption = 'Botones relacionados'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -14,8 +14,8 @@ object Form1: TForm1
   PixelsPerInch = 120
   TextHeight = 16
   object SpeedButton1: TSpeedButton
-    Left = 152
-    Top = 80
+    Left = 104
+    Top = 56
     Width = 73
     Height = 81
     AllowAllUp = True
@@ -410,8 +410,8 @@ object Form1: TForm1
     OnClick = SpeedButton1Click
   end
   object SpeedButton2: TSpeedButton
-    Left = 80
-    Top = 80
+    Left = 32
+    Top = 56
     Width = 73
     Height = 81
     AllowAllUp = True
@@ -806,8 +806,8 @@ object Form1: TForm1
     OnClick = SpeedButton2Click
   end
   object SpeedButton3: TSpeedButton
-    Left = 224
-    Top = 80
+    Left = 176
+    Top = 56
     Width = 73
     Height = 81
     AllowAllUp = True
@@ -1202,8 +1202,8 @@ object Form1: TForm1
     OnClick = SpeedButton3Click
   end
   object SpeedButton4: TSpeedButton
-    Left = 296
-    Top = 80
+    Left = 248
+    Top = 56
     Width = 73
     Height = 81
     AllowAllUp = True
@@ -1598,8 +1598,8 @@ object Form1: TForm1
     OnClick = SpeedButton4Click
   end
   object SpeedButton5: TSpeedButton
-    Left = 368
-    Top = 80
+    Left = 320
+    Top = 56
     Width = 73
     Height = 81
     AllowAllUp = True
@@ -1994,8 +1994,8 @@ object Form1: TForm1
     OnClick = SpeedButton5Click
   end
   object SpeedButton6: TSpeedButton
-    Left = 440
-    Top = 80
+    Left = 392
+    Top = 56
     Width = 73
     Height = 81
     AllowAllUp = True
@@ -2390,37 +2390,28 @@ object Form1: TForm1
     OnClick = SpeedButton6Click
   end
   object Label1: TLabel
-    Left = 216
-    Top = 40
-    Width = 118
+    Left = 168
+    Top = 16
+    Width = 128
     Height = 33
     Caption = 'Persona 3'
     Font.Charset = ANSI_CHARSET
-    Font.Color = clWindowText
+    Font.Color = clMaroon
     Font.Height = -30
-    Font.Name = 'MS Serif'
-    Font.Style = []
-    ParentFont = False
-  end
-  object ToolBar1: TToolBar
-    Left = 0
-    Top = 0
-    Width = 584
-    Height = 41
-    Caption = 'ToolBar1'
-    TabOrder = 0
-  end
-  object CInformation: TEdit
-    Left = 80
-    Top = 184
-    Width = 433
-    Height = 31
-    Font.Charset = ANSI_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -20
     Font.Name = 'MS Serif'
     Font.Style = [fsBold]
     ParentFont = False
-    TabOrder = 1
+  end
+  object CInformation: TLabel
+    Left = 208
+    Top = 160
+    Width = 10
+    Height = 36
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clNavy
+    Font.Height = -30
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
   end
 end
