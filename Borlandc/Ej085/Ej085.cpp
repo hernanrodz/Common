@@ -18,38 +18,62 @@ __fastcall TForm1::TForm1(TComponent* Owner)
 
 void __fastcall TForm1::SpeedButton2Click(TObject *Sender)
 {
-  CInformation->Caption = "Ken";
+  CInformation->Caption = "Agenda";
 }
 //---------------------------------------------------------------------------
 
 void __fastcall TForm1::SpeedButton1Click(TObject *Sender)
 {
-  CInformation->Caption = "Aigis";
+  CInformation->Caption = "Libro";
 }
 //---------------------------------------------------------------------------
 
 void __fastcall TForm1::SpeedButton3Click(TObject *Sender)
 {
-  CInformation->Caption = "Yukari";
+  CInformation->Caption = "Anotador";
 }
 //---------------------------------------------------------------------------
 
 void __fastcall TForm1::SpeedButton4Click(TObject *Sender)
 {
-   CInformation->Caption = "Koromaru";
+   CInformation->Caption = "Copia";
 }
 //---------------------------------------------------------------------------
 
 void __fastcall TForm1::SpeedButton5Click(TObject *Sender)
 {
-  CInformation->Caption = "Junpei";
+  CInformation->Caption = "Entrada";
 }
 //---------------------------------------------------------------------------
 
 void __fastcall TForm1::SpeedButton6Click(TObject *Sender)
 {
-   CInformation->Caption = "Mitsuru";
-   
+   CInformation->Caption = "Documentos";
+
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::SpeedButton7Click(TObject *Sender)
+{
+   CInformation->Caption = "Fotos";
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::SpeedButton8Click(TObject *Sender)
+{
+   CInformation->Caption = "Carpeta";
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::SpeedButton9Click(TObject *Sender)
+{
+   CInformation->Caption = "Mensaje";
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::SpeedButton10Click(TObject *Sender)
+{
+   CInformation->Caption = "Archivos";
 }
 //---------------------------------------------------------------------------
 
