@@ -11,6 +11,6 @@ C++ Builder programming exercises.
 
 Examples from the book:
 Programación con C++ Builder 5,  
-Autor: Francisco Charte Ojeda.
+Autor: Francisco Charte.
 Editorial Anaya.
 
