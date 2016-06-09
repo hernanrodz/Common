@@ -4,7 +4,6 @@ Common use repository.
  Hernan's own.
  
  
- 
  Contents
 -------------
 C++ Builder programming exercises.
