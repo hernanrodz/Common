@@ -1,0 +1,56 @@
+Error 00038. 0x100430 (Thread 0x07F4):
+Access in freed memory: Attempt to access 1 byte(s) at 0x011348BC.
+Call Tree:
+   0x00401432(=Punteros.exe:0x01:000432) G:\Libros\PBCppBuilder5\Ejemplos\03\Punteros\Punteros.cpp#20
+   0x3257DBEF(=CC3250MT.DLL:0x01:07CBEF)
+
+The object (0x011348BC) [size: 4 bytes] was created with new
+Call Tree:
+   0x004012FF(=Punteros.exe:0x01:0002FF) G:\Libros\PBCppBuilder5\Ejemplos\03\Punteros\Punteros.cpp#8
+   0x3257DBEF(=CC3250MT.DLL:0x01:07CBEF)
+
+The object (0x011348BC) was deleted with delete
+Call Tree:
+   0x00401424(=Punteros.exe:0x01:000424) G:\Libros\PBCppBuilder5\Ejemplos\03\Punteros\Punteros.cpp#17
+   0x3257DBEF(=CC3250MT.DLL:0x01:07CBEF)
+
+------------------------------------------
+Functions called:
+ delete (36 times)
+ SysReallocMem (1 times)
+ SysFreeMem (274 times)
+ SysGetMem (274 times)
+ lstrlenA (1 times)
+ lstrcpyA (4 times)
+ realloc (1 times)
+ delete[] (2 times)
+ free (26 times)
+ new[] (14 times)
+ new (41 times)
+ calloc (5 times)
+ malloc (20 times)
+Resource types used:
+ object array (14 allocs, 13 max)
+ object (41 allocs, 29 max)
+ memory block (300 allocs, 249 max)
+Modules used:
+ 00400000 04/12/2000 19:13:28
+ G:\Libros\PBCppBuilder5\Ejemplos\03\Punteros\Punteros.exe
+ 0CD00000 01/31/2000 05:00:00 G:\Archivos de
+ programa\Borland\CBuilder5\Bin\CG32.DLL
+ 32500000 01/31/2000 05:00:00 G:\Archivos de
+ programa\Borland\CBuilder5\Bin\CC3250MT.DLL
+ 41000000 01/31/2000 05:00:00 G:\Archivos de
+ programa\Borland\CBuilder5\Bin\BORLNDMM.DLL
+ 6E380000 12/16/1999 08:00:00 G:\WINNT\System32\INDICDLL.dll
+ 75E30000 12/16/1999 08:00:00 G:\WINNT\System32\IMM32.dll
+ 779B0000 12/16/1999 08:00:00 G:\WINNT\system32\oleaut32.dll
+ 77A50000 12/16/1999 08:00:00 G:\WINNT\system32\ole32.dll
+ 77B50000 12/16/1999 08:00:00 G:\WINNT\system32\COMCTL32.DLL
+ 77D40000 12/16/1999 08:00:00 G:\WINNT\system32\RPCRT4.DLL
+ 77DB0000 12/16/1999 08:00:00 G:\WINNT\system32\advapi32.dll
+ 77E10000 12/16/1999 08:00:00 G:\WINNT\system32\user32.dll
+ 77E80000 12/16/1999 08:00:00 G:\WINNT\system32\kernel32.dll
+ 77F40000 12/16/1999 08:00:00 G:\WINNT\system32\GDI32.DLL
+ 77F80000 12/16/1999 08:00:00 G:\WINNT\System32\ntdll.dll
+==========================================
